@@ -1,8 +1,8 @@
 import "./App.css";
-import ForEvents from "../src/JSX/Expressions/ForEvents";
+import CrudApp from "./CRUD/app/CrudApp";
 
 function App() {
-  return <ForEvents />;
+  return <CrudApp />;
 }
 
 export default App;
