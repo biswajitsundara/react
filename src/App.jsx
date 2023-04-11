@@ -1,8 +1,8 @@
 import "./App.css";
-import CrudApp from "./CRUD/app/CrudApp";
+import Parent from "./State/LiftingStateUp/Parent";
 
 function App() {
-  return <CrudApp />;
+  return <Parent />;
 }
 
 export default App;
