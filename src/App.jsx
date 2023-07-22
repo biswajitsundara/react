@@ -1,8 +1,8 @@
 import "./App.css";
-import Parent from "./State/LiftingStateUp/Parent";
+import Page from "./02 Interaction/Page"
 
 function App() {
-  return <Parent />;
+  return <Page />;
 }
 
 export default App;
