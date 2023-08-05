@@ -1,8 +1,13 @@
 import "./App.css";
-import Page from "./02 Interaction/Page"
+import SocialMedia from "./08 Component Objects/SocialMedia";
+
 
 function App() {
-  return <Page />;
+  return (
+    <>
+      <SocialMedia />
+    </>
+  );
 }
 
 export default App;
