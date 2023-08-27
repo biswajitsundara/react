@@ -1,11 +1,11 @@
 import "./App.css";
-import SocialMedia from "./08 Component Objects/SocialMedia";
+import LazyApp from "./21 Lazy Loading/LazyApp";
 
 
 function App() {
   return (
     <>
-      <SocialMedia />
+      <LazyApp />
     </>
   );
 }
