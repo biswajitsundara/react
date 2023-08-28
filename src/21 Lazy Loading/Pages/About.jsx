@@ -13,6 +13,7 @@ const About = () => {
         console.error("Error fetching data:", error);
       });
   }, []);
+
   return (
     <>
       <h1>{data.name}</h1>
