@@ -1,11 +1,11 @@
 import "./App.css";
-import LazyApp from "./21 Lazy Loading/LazyApp";
+import LazyAppRoute from "./21 Lazy Loading/RouteBased/LazyAppRoute";
 
 
 function App() {
   return (
     <>
-      <LazyApp />
+      <LazyAppRoute />
     </>
   );
 }

@@ -4,7 +4,7 @@ const Home = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/postsz")
+    fetch("https://jsonplaceholder.typicode.com/posts")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -14,9 +14,9 @@ const Home = () => {
       });
   }, []);
 
-  if(data.length < 1){
-    return new Error('There is an error');
-  }
+  // if(data.length < 1){
+  //   return new Error('There is an error');
+  // }
   
   return (
     <>
